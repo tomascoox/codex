@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from the server-> bot's response
 
-  const response = await fetch('http://localhost:5001', {
+  const response = await fetch('https://codex-deup.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
