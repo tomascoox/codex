@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
 
+:root {
+  --doc-height: 100%;
+ }
+
 * {
   margin: 0;
   padding: 0;
@@ -9,14 +13,14 @@
 
 body {
   background: #343541;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  height: 100vh; /* fallback for Js load */
+  height: var(--doc-height);
 }
-
 
 #app {
   width: 100vw;
-  height: 100vh;
+  height: 100vh; /* fallback for Js load */
+  height: var(--doc-height);
   background: #343541;
 
   display: flex;
