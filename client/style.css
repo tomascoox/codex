@@ -29,6 +29,12 @@ body {
   justify-content: space-between;
 }
 
+#ad_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 #chat_container {
   flex: 1;
   width: 100%;
