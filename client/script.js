@@ -65,6 +65,8 @@ function chatStripe (isAi, value, uniqueId) {
   )
 }
 
+
+
 function showAd() {
   let div = document.getElementById('ad_position');
   div.innerHTML = ''
@@ -83,10 +85,9 @@ function showAd() {
   s2.src = "//www.effectivecreativeformat.com/269887737618ed5548ed6ec90a0b85cf/invoke.js";
   div.appendChild( s1 );
   div.appendChild( s2 );
-
-  // confirm it worked:
-  console.log(div.innerHTML)
 }
+
+
 
 const handleSubmit = async (e) => {
   e.preventDefault()
