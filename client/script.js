@@ -65,8 +65,33 @@ function chatStripe (isAi, value, uniqueId) {
   )
 }
 
+function showAd() {
+  let div = document.getElementById('ad_position');
+  div.innerHTML = ''
+  var s1 = document.createElement('script');
+  s1.type = 'text/javascript';
+  s1.innerHTML = `atOptions = {
+    key: "269887737618ed5548ed6ec90a0b85cf",
+    format: "iframe",
+    height: 50,
+    width: 320,
+    params: {}
+  };`;
+
+  var s2 = document.createElement( 'script' );
+  s2.type = 'text/javascript';
+  s2.src = "//www.effectivecreativeformat.com/269887737618ed5548ed6ec90a0b85cf/invoke.js";
+  div.appendChild( s1 );
+  div.appendChild( s2 );
+
+  // confirm it worked:
+  console.log(div.innerHTML)
+}
+
 const handleSubmit = async (e) => {
   e.preventDefault()
+
+  showAd()
 
   const data = new FormData(form)
 
