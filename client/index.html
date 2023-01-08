@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DX9WRKE41Z"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-DX9WRKE41Z');
-</script>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio Joox ChatBot</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="module" src="script.js" defer></script>
-  </head>
-  <body>
-    <div id="app">
-      <div id="chat_container"></div>
-      <form>
-        <textarea name="prompt" cols="1" rows="1" placeholder="Start a conversation..."></textarea>
-        <button type="submit"><img src="assets/send.svg"></button>
-      </form>
-      <script type="text/javascript">
-        atOptions = {
-          'key' : '269887737618ed5548ed6ec90a0b85cf',
-          'format' : 'iframe',
-          'height' : 50,
-          'width' : 320,
-          'params' : {}
-        };
-        document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/269887737618ed5548ed6ec90a0b85cf/invoke.js"></scr' + 'ipt>');
-      </script>
-      </div>
-  </body>
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DX9WRKE41Z"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-DX9WRKE41Z');
+  </script>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Studio Joox Chatbot - Testa att prata med en AI" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/open_graph_image.png" />
+  <meta property="og:url" content="https://chat.joox.se" />
+  <title>Studio Joox ChatBot</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js" defer></script>
+</head>
+
+<body>
+  <div id="app">
+    <div id="chat_container"></div>
+    <form>
+      <textarea name="prompt" cols="1" rows="1" placeholder="Start a conversation..."></textarea>
+      <button type="submit"><img src="assets/send.svg"></button>
+    </form>
+    <script type="text/javascript">
+      atOptions = {
+        'key': '269887737618ed5548ed6ec90a0b85cf',
+        'format': 'iframe',
+        'height': 50,
+        'width': 320,
+        'params': {}
+      };
+      document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/269887737618ed5548ed6ec90a0b85cf/invoke.js"></scr' + 'ipt>');
+    </script>
+  </div>
+</body>
+
 </html>
