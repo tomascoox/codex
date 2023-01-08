@@ -124,7 +124,7 @@ form {
   margin: 0 auto;
   padding: 10px;
   background: #40414F;
-  position: absolute;
+  position: relative;
   bottom: 0;
 
   display: flex;
