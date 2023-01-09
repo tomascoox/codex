@@ -92,7 +92,7 @@ function showAd() {
 const handleSubmit = async (e) => {
   e.preventDefault()
 
-  showAd()
+  // showAd()
 
   const data = new FormData(form)
 
